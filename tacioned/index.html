@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacion</title>
+
+    <link rel="stylesheet" href="./css/globle.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://kit.fontawesome.com/3a3f083ec4.js" crossorigin="anonymous"></script>
+    <script src="./js/javascript.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="start">
+                <li>
+                    <a href=""><b>Tacion - Ed</b></a>
+                </li>
+            </div>
+            <div class="slider-content" id="slider">
+                <div class="middle">
+                <li>
+                    <a href="#about-us"><span onclick="aboutMenue()">About</span></a>
+                </li>
+                <li>
+                    <a href="#map"><span onclick="mapMenue()">Map</span></a>
+                </li>
+            </div>
+            <div class="end">
+                <li class="donate">
+                    <a href="">Donate</a>
+                </li>
+            </div>
+            <div class="cross">
+                <li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenue()"></i>
+                </li>
+            </div>
+            </div>
+            <div class="bars" onclick="dropMenue()">
+                <li>
+                    <i class="fa-solid fa-bars"></i>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <div class="main-body">
+        <div class="heading-content">
+            <div class="image-container">
+                <img src="./assets/tacion_ed.png" alt="Wall">
+            </div>
+        </div>
+        <section class="tabs">
+            <div class="levels">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="./assets/perspective_matte-451-128x128.png" alt="placeholder">
+                    </div>
+                    <div class="conetnt">
+                        <h2>Level One</h2>
+                        <ul>
+                            <li><span></span> <div class="l1">HTML</div></li>
+                            <li><div class="l1">CSS</div></li>
+                            <li><div class="l1">JS</div></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="./assets/perspective_matte-462-128x128.png" alt="placeholder">
+                    </div>
+                    <div class="conetnt">
+                        <h2>Level Two</h2>
+                        <ul>
+                            <li><div class="l2-py">Python</div></li>
+                            <li><div class="l2">SQLite3</div></li>
+                            <li><div class="l2">PostgreSQL</div></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container">
+                        <img src="./assets/perspective_matte-466-128x128.png" alt="placeholder">
+                    </div>
+                    <div class="conetnt">
+                        <h2>Level Three</h2>
+                        <ul>
+                            <li><div class="l3">React</div></li>
+                            <li></span><div class="l3">Nodejs</div></li>
+                            <li><div class="l3">Material UI</div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us" id="about-us">
+            <h2>About us</h2>
+            <div class="card">
+                <div class="content">
+                    <p>
+                        Here at tacion ed, we are a none profit organisation aimed to tutor individuals in a variety of skills. Our goal is to create a community that is proffiecient in different levels of skills this ranges from web development to app development.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="map">
+            <div class="maps" id="map">
+                <div class="card">
+                    <div class="leading-text">
+                        <h2>Frontend</h2>
+                        <p>
+                            We train our community to be professional frontend developers through a varirty of Stacks.
+                        </p>
+                    </div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                    <ul>
+
+                        <li>React</li>
+                        <li>Node Js</li>
+                        <li>Material UI</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="leading-text">
+                        <h2>Backend</h2>
+                        <p>
+                            We train our community to be professional Backend developers through a varirty of Stacks.
+                        </p>
+                    </div>
+                    <ul>
+                        <li>Mongo</li>
+                        <li>Express</li>
+                        <li>Node.js</li>
+                    </ul>
+                    <ul>
+                        <li>Python</li>
+                        <li>Django</li>
+                    </ul>
+                    <ul>
+                        <li>Python</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="contact-us">
+                <span class="phone">Contact: +260 978 516 926</span>
+                <span class="email"><a href="tacionsolutions@gmail.com">Gmail</a></span>
+                <span class="instagram"><a href="https://instagram.com/tacion_solutions?igshid=ZDdkNTZiNTM=">Instgram</a></span>
+            </div>
+            <div class="copyright">
+                Copyright@2023
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
